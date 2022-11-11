@@ -1,0 +1,42 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60px;
+  align-items: baseline;
+}
+
+.stat {
+  height: 20px;
+  margin-right: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #020166;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .title {
+    text-align: center;
+    align-items: center;
+    width: 282px;
+  }
+  .stats {
+    height: 150px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+  .stat {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

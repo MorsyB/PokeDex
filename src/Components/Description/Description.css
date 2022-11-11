@@ -1,0 +1,36 @@
+.description {
+  width: 320px;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 10px;
+  color: #020166;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+color: #373299;
+}
+
+@media(max-width: 800px){
+  .description{
+  width: 240px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  div .rightSide{
+    margin: 0px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,49 @@
+.card:hover {
+  background: #F1F1F3;
+  cursor: pointer;
+}
+
+.card{
+    width: 240.56px;
+    height: 255px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+    flex-direction: column;
+    margin-right: 26.73px;
+    margin-bottom: 26.73px;
+    background: #F7F7F9;
+    border-radius: 9px;
+    justify-content: left;    
+    align-items: left;
+}
+
+.card img{
+    height: 120px;
+}
+
+.pokeId{
+    margin-left:16.25px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #373299;
+}
+
+.pokeName{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #373299;
+}
+
+.forPokeID{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
